@@ -11,10 +11,13 @@ import numpy as np #Importando a biblioteca necessária
 from sklearn.cluster import KMeans #KMeans, algoritmo de agrupamento de dados
 
 filmes_assistidos = np.array([ #matriz silmples de avaliação dos filmes
-    [1, 0, 0, 1],
+    [1, 0, 1, 1],
     [1, 1, 0, 0],
-    [0, 1, 1, 0],
+    [0, 1, 0, 0],
     [0, 0, 1, 1],
+    [1, 0, 1, 0],
+    [0, 1, 0, 1],
+    [0, 1, 1, 1],
     [1, 0, 1, 0],
     [0, 1, 0, 1]
    
